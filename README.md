@@ -81,19 +81,3 @@ Compare It! highlights differences; highlight colors vary by version and setting
 5. For a PDF submission, insert the screenshot into a Word document and export it to PDF.
 
 > A screenshot records the visible comparison. It is not a substitute for a cryptographic integrity check or a full forensic audit trail.
-
-## 8. Suggested Screenshots for Lab Record / GitHub
-Save screenshots in a `screenshots/` folder:
-
-| Screenshot | What to show | Suggested filename |
-|---|---|---|
-| 1 | Contents of the first file in Notepad | `01-file1.png` |
-| 2 | Contents of the second file in Notepad | `02-file2.png` |
-| 3 | Both files side by side in Compare It!, with highlighted differences | `03-comparison.png` |
-| 4 (optional) | Print preview or permitted report output | `04-report.png` |
-
-After adding the images to the repository, you can display them in this README:
-
-```markdown
-![File comparison showing differences](screenshots/03-comparison.png)
-```
